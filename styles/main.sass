@@ -1,0 +1,116 @@
+@import './clear.css'
+@import url('https://fonts.googleapis.com/css?family=Oswald')
+
+body
+  background: #fff
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+.main
+  width: 620px
+  margin: 0 auto
+  
+.header
+  background: #242424
+  padding: 24px 0
+  
+.logo
+  color: #fff
+  font-style: italic
+  font-size: 19px
+  span
+    font-weight: bold
+
+.add-form
+  padding-top: 43px
+  padding-bottom: 42px
+  background: #e4e4e4
+
+.add-form__title
+  font-weight: bold
+  margin-bottom: 17px
+
+.form-inputs__item
+  width: 100%
+  display: block
+  padding: 10px 0
+  padding-left: 25px
+  &::placeholder
+    font-size: 17px
+
+.form-inputs__post
+  resize: none
+  height: 160px
+  margin-top: 16px
+
+.add-post-form__submit
+  margin-top: 17px
+
+.btn__add-post
+  width: 293px
+  padding: 12px 0
+  text-align: center
+  float: right
+  color: #fff
+  background: #242424
+  border: none
+  cursor: pointer
+
+
+.post-item
+  padding-top: 42px
+  padding-bottom: 35px
+  &:nth-child(even)
+      background: #e4e4e4
+
+.post-item__title
+  font-size: 19px
+  font-weight: bold
+  margin-bottom: 32px
+  a
+    &:hover
+      text-decoration: underline
+      cursor: pointer
+
+      
+.load-more
+  width: 100%
+  margin: 20px 0
+  padding: 18px 0
+  text-align: center
+  color: #3f3f3f
+  background: #f3f3f3
+  cursor: pointer
+
+.full-post
+  margin-top: 47px
+
+.btn__buck
+  background: #F3F3F3
+  padding: 20px 0
+  padding-left: 60px
+  padding-right: 34px
+  cursor: pointer
+  display: inline-block
+  position: relative
+  &:hover
+    opacity: 0.7
+  &:before
+    content: ''
+    width: 15px
+    height: 20px
+    background: url('../img/if_Left_arrow_2202280.svg') no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    position: absolute
+    top: 17px
+    left: 23px
+    font-weight: bold
+    font-size: 17px
+
+
+.full-post__data
+  margin-top: 46px
+
+.full-post__title
+  font-weight: bold
+  margin-bottom: 34px
